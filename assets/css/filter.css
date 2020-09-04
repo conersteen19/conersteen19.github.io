@@ -1,0 +1,64 @@
+.filter-button {
+  background-color: white;
+  font-size: 1.3rem;
+  color: #0069d9;
+  margin-bottom: 30px;
+}
+
+.filter {
+  background-color: white;
+  margin: 5px;
+  color: #007bff;
+  border: solid 1px;
+}
+
+.filter-active {
+  background-color: #007bff;
+  color: white;
+}
+
+.label-active {
+  font-weight: bold;
+}
+
+#project-filter-clear {
+  margin-left: 0px;
+}
+
+.btn-white {
+  background-color: white;
+  color: #007bff;
+}
+
+.btn-featured {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.filter-group {
+  border-bottom: 1px solid #007bff;
+  padding: 10px 5px 10px 5px;
+}
+
+.filter-noborder {
+  border: none;
+}
+
+.label {
+  margin-right: 5px;
+  /*word-wrap: break-word;*/
+}
+
+.exp-img {
+  max-height: 250px;
+  margin-top: 10px;
+}
+
+.exp-mid-col {
+  margin-bottom: 10px;
+}
+
+.clean-blog-post {
+  padding-bottom: 50px;
+}
+
