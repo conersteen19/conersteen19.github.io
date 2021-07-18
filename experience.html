@@ -13,16 +13,20 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/Carousel_Image_Slider-1.css">
+    <link rel="stylesheet" href="assets/css/Carousel_Image_Slider.css">
+    <link rel="stylesheet" href="assets/css/filter.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
+    <link rel="stylesheet" href="assets/css/smoothproducts.css">
+    <link rel="stylesheet" href="assets/css/Social-Icons.css">
 </head>
 
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
         <div class="container"><a class="navbar-brand logo" href="/">Conner Steenrod</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse"
-                id="navcol-1">
+            <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="/about.html">About Me</a></li>
@@ -41,11 +45,25 @@
                 <div class="block-content"><span id="filter-button-exp" class="btn btn-outline-primary filter-button">Show Filters</span>
                     <div id="exp-filter" style="margin-bottom: 30px;  display: none;">
                         <div class="filter-group"><span id="exp-filter-clear" class="btn filter">Clear All</span></div>
-                        <div class="filter-group"><span id="exp-filter-clear-type" class="btn filter">Clear Type</span><span id="exp-filter-jobs" class="btn filter">Jobs</span><span id="exp-filter-interns" class="btn filter">Internships</span><span id="exp-filter-orgs" class="btn filter">Organizations</span>
-                            <span
-                                id="exp-filter-vols" class="btn filter">Volunteering</span><span id="exp-filter-leads" class="btn filter">Leadership Positions</span></div>
-                        <div class="filter-group filter-noborder"><span id="exp-filter-clear-field" class="btn filter">Clear Field</span><span id="exp-filter-me" class="btn filter">Mechanical Engineering</span><span id="exp-filter-ne" class="btn filter">Network Engineering</span><span id="exp-filter-cs"
-                                class="btn filter">Computer Science</span><span id="exp-filter-tp" class="btn filter">Theme Parks</span></div>
+                        <div class="filter-group"><span id="exp-filter-clear-type" class="btn filter">Clear Type</span><span id="exp-filter-jobs" class="btn filter">Jobs</span><span id="exp-filter-interns" class="btn filter">Internships</span><span id="exp-filter-orgs" class="btn filter">Organizations</span><span id="exp-filter-vols" class="btn filter">Volunteering</span><span id="exp-filter-leads" class="btn filter">Leadership Positions</span></div>
+                        <div class="filter-group filter-noborder"><span id="exp-filter-clear-field" class="btn filter">Clear Field</span><span id="exp-filter-me" class="btn filter">Mechanical Engineering</span><span id="exp-filter-ne" class="btn filter">Network Engineering</span><span id="exp-filter-cs" class="btn filter">Computer Science</span><span id="exp-filter-tp" class="btn filter">Theme Parks</span></div>
+                    </div>
+                    <div class="clean-blog-post exp-jobs exp-me">
+                        <div class="row">
+                            <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/rr.png"></div>
+                            <div class="col-lg-8">
+                                <h3>Test Operations Engineering Intern at Rolls-Royce Defense</h3>
+                                <div class="row">
+                                    <div class="col-lg-5 exp-mid-col">
+                                        <p>June 2021 - Aug 2021<br>Indianapolis, IN<br><a href="https://www.rolls-royce.com/">Website</a></p>
+                                        <p><span>Tags:&nbsp;</span><span class="label exp-label-jobs">Jobs</span><span class="label exp-label-me">Mechanical Engineering</span></p>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p>Worked on development and production engine tests including installing, running, and uninstalling engines.&nbsp; Modernized methods for recording and monitoring engine tracking through testing process.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="clean-blog-post exp-jobs exp-cs exp-meche">
                         <div class="row">
@@ -58,8 +76,7 @@
                                         <p><span>Tags:&nbsp;</span><span class="label exp-label-jobs">Jobs</span><span class="label exp-label-me">Mechanical Engineering</span><span class="label exp-label-cs">Computer Science</span></p>
                                     </div>
                                     <div class="col-lg-7">
-                                        <p>Helped teach students by holding office hours, grading papers, and answering student questions during lectures.&nbsp; Helped with Discrete Math, Ordinary Differential Equations, and Partial Differential Equations
-                                            courses.</p>
+                                        <p>Helped teach students by holding office hours, grading papers, and answering student questions during lectures.&nbsp; Helped with Discrete Math, Ordinary Differential Equations, and Partial Differential Equations courses.</p>
                                     </div>
                                 </div>
                             </div>
@@ -76,9 +93,7 @@
                                         <p><span>Tags:&nbsp;</span><span class="label exp-label-jobs">Jobs</span><span class="label exp-label-interns">Internships</span><span class="label exp-label-ne">Network Engineering</span><span class="label exp-label-cs">Computer Science</span></p>
                                     </div>
                                     <div class="col-lg-7">
-                                        <p>Started as an intern and became an employee as a network engineer.&nbsp;Worked on various project including the NEAT project (<a href="projects/neat-program.html">link</a>), monitoring our internal network with
-                                            Icinga, and assisting clients with on-site visits to help solve their networking issues.&nbsp;Spent time coding, configuring new servers, debugging problems, planning networks, assembling racks, and practicing
-                                            good customer services and client interactions.<br></p>
+                                        <p>Started as an intern and became an employee as a network engineer.&nbsp;Worked on various project including the NEAT project (<a href="projects/neat-program.html">link</a>), monitoring our internal network with Icinga, and assisting clients with on-site visits to help solve their networking issues.&nbsp;Spent time coding, configuring new servers, debugging problems, planning networks, assembling racks, and practicing good customer services and client interactions.<br></p>
                                     </div>
                                 </div>
                             </div>
@@ -95,8 +110,7 @@
                                         <p><span>Tags:&nbsp;</span><span class="label exp-label-orgs">Organizations</span><span class="label exp-label-leads">Leadership Positions</span><span class="label exp-label-ne">Network Engineering</span><span class="label exp-label-cs">Computer Science</span></p>
                                     </div>
                                     <div class="col-lg-7">
-                                        <p>Competed on National Champion CCDC team as the networking admin and co-captain.&nbsp; Helped with securing firewalls and defend the network from the red team.&nbsp; Helped organize team during practices, run tryouts,
-                                            and document team information for future use.</p>
+                                        <p>Competed on National Champion CCDC team as the networking admin and co-captain.&nbsp; Helped with securing firewalls and defend the network from the red team.&nbsp; Helped organize team during practices, run tryouts, and document team information for future use.</p>
                                     </div>
                                 </div>
                             </div>
@@ -110,14 +124,10 @@
                                 <div class="row">
                                     <div class="col-lg-5 exp-mid-col">
                                         <p>Feb 2019 - Present<br></p>
-                                        <p><span>Tags:&nbsp;</span><span class="label exp-label-orgs">Organizations</span><span class="label exp-label-leads">Leadership Positions</span><span class="label exp-label-me">Mechanical Engineering</span><span class="label exp-label-cs">Computer Science</span>
-                                            <span
-                                                class="label exp-label-tp">Theme Parks</span>
-                                        </p>
+                                        <p><span>Tags:&nbsp;</span><span class="label exp-label-orgs">Organizations</span><span class="label exp-label-leads">Leadership Positions</span><span class="label exp-label-me">Mechanical Engineering</span><span class="label exp-label-cs">Computer Science</span><span class="label exp-label-tp">Theme Parks</span></p>
                                     </div>
                                     <div class="col-lg-7">
-                                        <p>Brother of the Pi chapter.&nbsp; &nbsp;Previous New Member educator.&nbsp; Manage fraternity social media and external communications. Connect with brothers and alumni in the engineering industry.&nbsp; Previously
-                                            served as pledge class president.<br></p>
+                                        <p>Brother of the Pi chapter.&nbsp; &nbsp;Previous New Member educator.&nbsp; Manage fraternity social media and external communications. Connect with brothers and alumni in the engineering industry.&nbsp; Previously served as pledge class president.<br></p>
                                     </div>
                                 </div>
                             </div>
@@ -126,8 +136,7 @@
                     <div class="clean-blog-post exp-orgs exp-me">
                         <div class="row">
                             <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/vm.png" source="https://www.virginiamotorsportseducation.org/uploads/2/8/4/1/28410275/transparent-baja-logo.png" alt="Virginia Motorsports" style="background-color: black; padding: 10px;"></div>
-                            <div
-                                class="col-lg-8">
+                            <div class="col-lg-8">
                                 <h3>Member of Virginia Motorsports</h3>
                                 <div class="row">
                                     <div class="col-lg-5 exp-mid-col">
@@ -138,208 +147,198 @@
                                         <p>Complete workshops and work on various projects repairing and designing automobiles for collegiate competitions such as Baja SAE.&nbsp; Practice real-world skills such as water jet cutting and welding.<br></p>
                                     </div>
                                 </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clean-blog-post exp-orgs exp-leads exp-cs">
-                    <div class="row">
-                        <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/acm.PNG" alt="Association for Computing Machinery" source="http://acm.cs.virginia.edu/"></div>
-                        <div class="col-lg-8">
-                            <h3>Vice President/Member of the Association for Computing Machinery (ACM)</h3>
-                            <div class="row">
-                                <div class="col-lg-5 exp-mid-col">
-                                    <p>Aug 2018 - Present<br><a href="http://acm.cs.virginia.edu/">Website</a></p>
-                                    <p><span>Tags:&nbsp;</span><span class="label exp-label-orgs">Organizations</span><span class="label exp-label-leads">Leadership Positions</span><span class="label exp-label-cs">Computer Science</span></p>
-                                </div>
-                                <div class="col-lg-7">
-                                    <p>Managed ACM's external communications with outside businesses/companies and helped organize events.&nbsp; Helped run weekly meetings and put on events such as UVA's High School Programming Competition (HSPC).<br></p>
-                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="clean-blog-post exp-interns exp-me">
-                    <div class="row">
-                        <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/turner.jpg" style="padding: 10px;"></div>
-                        <div class="col-lg-8">
-                            <h3>Construction Engineer/Management Intern at Turner Construction</h3>
-                            <div class="row">
-                                <div class="col-lg-5 exp-mid-col">
-                                    <p>July 2020 - August 2020<br>Washington, DC<br><a href="http://www.turnerconstruction.com/office-network/washington-dc/verview">Website</a></p>
-                                    <p><span>Tags:&nbsp;</span><span class="label exp-label-interns">Internship</span><span class="label exp-label-me">Mechanical Engineering</span></p>
-                                </div>
-                                <div class="col-lg-7">
-                                    <p>Worked on a Architect of the Capital construction site on the Senate Underground Garage and Fountain Restoration.&nbsp; Worked with subcontractors and coordinated tasks as well and helped engineer solutions to evolving
-                                        site conditions.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clean-blog-post exp-orgs exp-vols exp-cs exp-ne">
-                    <div class="row">
-                        <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/meta.jpg"></div>
-                        <div class="col-lg-8">
-                            <h3>Volunteer/Developer at MetaCTF</h3>
-                            <div class="row">
-                                <div class="col-lg-5 exp-mid-col">
-                                    <p>Various Competitions, 2017-2020<br><a href="https://metactf.com/">Website</a></p>
-                                    <p><span>Tags:&nbsp;</span><span class="label exp-label-orgs">Organizations</span><span class="label exp-label-vols">Volunteering</span><br><span class="label exp-label-cs">Computer Science</span>
-                                        <span
-                                            class="label exp-label-ne">Network Engineering</span>
-                                    </p>
-                                    <p></p>
-                                </div>
-                                <div class="col-lg-7">
-                                    <p>Volunteered at multiple competitions and helped with competition logistics, organization, and presentation.&nbsp;Helped write problems for various Capture the Flag (CTF) competitions run by MetaCTF using various computer
-                                        science and network engineering skills.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clean-blog-post exp-jobs exp-tp">
-                    <div class="row">
-                        <div class="col-lg-4"><img class="rounded img-fluid exp-img" src="assets/img/experience/kd.png" alt="Kings Dominion" source="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Kings_Dominion_logo.svg/640px-Kings_Dominion_logo.svg.png"></div>
-                        <div class="col-lg-8">
-                            <h3>Ride Operator at Kings Dominion</h3>
-                            <div class="row">
-                                <div class="col-lg-5 exp-mid-col">
-                                    <p>May 2019 - Jan 2020<br>Doswell, VA<br><a href="https://www.kingsdominion.com/">Website</a></p>
-                                    <p><span>Tags:&nbsp;</span><span class="label exp-label-jobs">Jobs</span><span class="label exp-label-tp">Theme Parks</span></p>
-                                </div>
-                                <div class="col-lg-7">
-                                    <p>Worked as a Ride Operator in Kings Dominion's Planet Snoopy area.&nbsp; Trained in 8 different rides including Woodstock Express, a wooden roller coaster.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clean-blog-post exp-jobs exp-me exp-cs">
-                    <div class="row">
-                        <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/cfca.PNG" alt="The Center for Creative Arts at Shady Grove" source="center4creativearts.com"></div>
-                        <div class="col-lg-8">
-                            <h3>Camp Counselor at the Center for Creative Arts</h3>
-                            <div class="row">
-                                <div class="col-lg-5 exp-mid-col">
-                                    <p>Aug 2014 - Aug 2019<br>Glen Allen,. VA<br><a href="https://www.center4creativearts.org/">Website</a></p>
-                                    <p><span>Tags:&nbsp;</span><span class="label exp-label-jobs">Jobs</span><span class="label exp-label-cs">Mechanical Engineering</span><span class="label exp-label-me">Computer Science</span></p>
-                                </div>
-                                <div class="col-lg-7">
-                                    <p>Taught LEGO Robotics camps to elementary and middle school students.&nbsp; Introduced building robots with LEGO Mindstorms, programming using LEGO EV3 software, teambuilding strategies, and introduction to creative
-                                        thinking to solve real world problems.&nbsp; Helped students combine engineering/design skills and creativity.&nbsp;<br></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clean-blog-post exp-orgs exp-leads">
-                    <div class="row">
-                        <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/esc.png" alt="Engineering Student Council" source="https://images.squarespace-cdn.com/content/59b174fad2b857fc86d84966/1504805514514-JRF2HJL02J29ATKM3YIB/ESC+logo-white.png?content-type=image%2Fpng"
-                                style="background-color: gray; padding: 5px;"></div>
-                        <div class="col-lg-8">
-                            <h3>Committee Member of Engineering Student Council</h3>
-                            <div class="row">
-                                <div class="col-lg-5 exp-mid-col">
-                                    <p>Aug 2018 - May 2019<br><a href="https://www.uvaesc.org/">Website</a></p>
-                                    <p><span>Tags:&nbsp;</span><span class="label exp-label-orgs">Organizations</span><span class="label exp-label-leads">Leadership Positions</span></p>
-                                </div>
-                                <div class="col-lg-7">
-                                    <p>Served on Academic and Professional Development committee and helped put on events for other engineers to help relieve academic stress and further each other's studies.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clean-blog-post exp-orgs exp-leads">
-                    <div class="row">
-                        <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/assco.png" width="200px" alt="Association Council" source="https://housing.virginia.edu/RLE"></div>
-                        <div class="col-lg-8">
-                            <h3>Representative for Dorm on Association Council</h3>
-                            <div class="row">
-                                <div class="col-lg-5 exp-mid-col">
-                                    <p>Aug 2018 - May 2019<br><a href="#"></a></p>
-                                    <p><span>Tags:&nbsp;</span><span class="label exp-label-orgs">Organizations</span><span class="label exp-label-leads">Leadership Positions</span></p>
-                                </div>
-                                <div class="col-lg-7">
-                                    <p>Served on my first year dorm's council to promote and run events for students as part of Housing and Residence Life.<br></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clean-blog-post exp-jobs exp-cs">
-                    <div class="row">
-                        <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/ct.png" alt="ClearTrail Real Estate"></div>
-                        <div class="col-lg-8">
-                            <h3>Web Developer at ClearTrail Real Estate</h3>
-                            <div class="row">
-                                <div class="col-lg-5 exp-mid-col">
-                                    <p>Aug 2017 - June 2018<br>Richmond, VA<br></p>
-                                    <p><span>Tags:&nbsp;</span><span class="label exp-label-jobs">Jobs</span><span class="label exp-label-cs">Computer Science</span></p>
-                                </div>
-                                <div class="col-lg-7">
-                                    <p>Designed and developed a website for real estate company using Wordpress.&nbsp; Site included a backend system to allow for updating the current real estate sites and showed over 20 properties.<br></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clean-blog-post exp-jobs">
-                    <div class="row">
-                        <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/rs.jpg" source="https://upload.wikimedia.org/wikipedia/en/e/e8/Richmond_Strikers_logo.jpg" alt="Richmond Strikers" style="padding-top: 20px; padding-bottom: 20px;"></div>
-                        <div
-                            class="col-lg-8">
-                            <h3>Field Employee at Richmond Strikers</h3>
-                            <div class="row">
-                                <div class="col-lg-5 exp-mid-col">
-                                    <p>Sept 2014 - June 2018<br>Richmond, VA<br><a href="https://www.richmondstrikers.com/landing/index">Website</a></p>
-                                    <p><span>Tags:&nbsp;</span><span class="label exp-label-jobs">Jobs</span></p>
-                                </div>
-                                <div class="col-lg-7">
-                                    <p>Worked at tournaments refilling Gatorade coolers and handing out samples to players, coaches, and parents.&nbsp; Helped with event setup and cleanup.<br></p>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </div>
-            <div class="clean-blog-post exp-orgs exp-leads exp-cs exp-ne">
-                <div class="row">
-                    <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/cit.png" alt="Center for Information Technology" source="https://teachers.henrico.k12.va.us/deeprun/cit/media/c5.png"></div>
-                    <div class="col-lg-8">
-                        <h3>President of the Center for Information Technology (CIT) Council</h3>
+                    <div class="clean-blog-post exp-orgs exp-leads exp-cs">
                         <div class="row">
-                            <div class="col-lg-5 exp-mid-col">
-                                <p>June 2017 - June 2018<br>Deep Run High School<br></p>
-                                <p><span>Tags:&nbsp;</span><span class="label exp-label-orgs">Organizations</span><span class="label exp-label-leads">Leadership Positions</span><span class="label exp-label-cs">Computer Science</span><span class="label exp-label-ne">Network Engineering</span></p>
-                            </div>
-                            <div class="col-lg-7">
-                                <p>Ran, organized, and planned events.&nbsp; Was involved in major decisions about the runnings and future operations of the CIT.&nbsp; Also participated on the CIT Advisory Council and helped plan and write curriculum for
-                                    future courses.<br></p>
+                            <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/acm.PNG" alt="Association for Computing Machinery" source="http://acm.cs.virginia.edu/"></div>
+                            <div class="col-lg-8">
+                                <h3>Vice President/Member of the Association for Computing Machinery (ACM)</h3>
+                                <div class="row">
+                                    <div class="col-lg-5 exp-mid-col">
+                                        <p>Aug 2018 - Present<br><a href="http://acm.cs.virginia.edu/">Website</a></p>
+                                        <p><span>Tags:&nbsp;</span><span class="label exp-label-orgs">Organizations</span><span class="label exp-label-leads">Leadership Positions</span><span class="label exp-label-cs">Computer Science</span></p>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p>Managed ACM's external communications with outside businesses/companies and helped organize events.&nbsp; Helped run weekly meetings and put on events such as UVA's High School Programming Competition (HSPC).<br></p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="clean-blog-post exp-vols exp-me exp-cs">
-                <div class="row">
-                    <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/stc.jpg" alt="St. Catherine's School"></div>
-                    <div class="col-lg-8">
-                        <h3>LEGO Robotics Mentor at St. Catherine's School</h3>
+                    <div class="clean-blog-post exp-interns exp-me">
                         <div class="row">
-                            <div class="col-lg-5 exp-mid-col">
-                                <p>Aug 2016 - Dec 2017<br>Richmond, VA<br><a href="https://www.st.catherines.org/">Website</a></p>
-                                <p><span>Tags:&nbsp;</span><span class="label exp-label-vols">Volunteering</span><span class="label exp-label-me">Mechanical Engineering</span><span class="label exp-label-cs">Computer Science</span></p>
+                            <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/turner.jpg" style="padding: 10px;"></div>
+                            <div class="col-lg-8">
+                                <h3>Construction Engineer/Management Intern at Turner Construction</h3>
+                                <div class="row">
+                                    <div class="col-lg-5 exp-mid-col">
+                                        <p>July 2020 - August 2020<br>Washington, DC<br><a href="http://www.turnerconstruction.com/office-network/washington-dc/verview">Website</a></p>
+                                        <p><span>Tags:&nbsp;</span><span class="label exp-label-interns">Internship</span><span class="label exp-label-me">Mechanical Engineering</span></p>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p>Worked on a Architect of the Capital construction site on the Senate Underground Garage and Fountain Restoration.&nbsp; Worked with subcontractors and coordinated tasks as well and helped engineer solutions to evolving site conditions.</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-lg-7">
-                                <p>Helped mentor middle and elementary school students to prepare for the FIRST LEGO League competition.&nbsp;Taught robot design, programming using LEGO EV3 software, and strategy for completing tasks with the robot.&nbsp;Also
-                                    assisted with project research and helped students come up with creative solutions to real world problems.</p>
+                        </div>
+                    </div>
+                    <div class="clean-blog-post exp-orgs exp-vols exp-cs exp-ne">
+                        <div class="row">
+                            <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/meta.jpg"></div>
+                            <div class="col-lg-8">
+                                <h3>Volunteer/Developer at MetaCTF</h3>
+                                <div class="row">
+                                    <div class="col-lg-5 exp-mid-col">
+                                        <p>Various Competitions, 2017-2020<br><a href="https://metactf.com/">Website</a></p>
+                                        <p><span>Tags:&nbsp;</span><span class="label exp-label-orgs">Organizations</span><span class="label exp-label-vols">Volunteering</span><br><span class="label exp-label-cs">Computer Science</span><span class="label exp-label-ne">Network Engineering</span></p>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p>Volunteered at multiple competitions and helped with competition logistics, organization, and presentation.&nbsp;Helped write problems for various Capture the Flag (CTF) competitions run by MetaCTF using various computer science and network engineering skills.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clean-blog-post exp-jobs exp-tp">
+                        <div class="row">
+                            <div class="col-lg-4"><img class="rounded img-fluid exp-img" src="assets/img/experience/kd.png" alt="Kings Dominion" source="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Kings_Dominion_logo.svg/640px-Kings_Dominion_logo.svg.png"></div>
+                            <div class="col-lg-8">
+                                <h3>Ride Operator at Kings Dominion</h3>
+                                <div class="row">
+                                    <div class="col-lg-5 exp-mid-col">
+                                        <p>May 2019 - Jan 2020<br>Doswell, VA<br><a href="https://www.kingsdominion.com/">Website</a></p>
+                                        <p><span>Tags:&nbsp;</span><span class="label exp-label-jobs">Jobs</span><span class="label exp-label-tp">Theme Parks</span></p>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p>Worked as a Ride Operator in Kings Dominion's Planet Snoopy area.&nbsp; Trained in 8 different rides including Woodstock Express, a wooden roller coaster.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clean-blog-post exp-jobs exp-me exp-cs">
+                        <div class="row">
+                            <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/cfca.PNG" alt="The Center for Creative Arts at Shady Grove" source="center4creativearts.com"></div>
+                            <div class="col-lg-8">
+                                <h3>Camp Counselor at the Center for Creative Arts</h3>
+                                <div class="row">
+                                    <div class="col-lg-5 exp-mid-col">
+                                        <p>Aug 2014 - Aug 2019<br>Glen Allen,. VA<br><a href="https://www.center4creativearts.org/">Website</a></p>
+                                        <p><span>Tags:&nbsp;</span><span class="label exp-label-jobs">Jobs</span><span class="label exp-label-cs">Mechanical Engineering</span><span class="label exp-label-me">Computer Science</span></p>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p>Taught LEGO Robotics camps to elementary and middle school students.&nbsp; Introduced building robots with LEGO Mindstorms, programming using LEGO EV3 software, teambuilding strategies, and introduction to creative thinking to solve real world problems.&nbsp; Helped students combine engineering/design skills and creativity.&nbsp;<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clean-blog-post exp-orgs exp-leads">
+                        <div class="row">
+                            <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/esc.png" alt="Engineering Student Council" source="https://images.squarespace-cdn.com/content/59b174fad2b857fc86d84966/1504805514514-JRF2HJL02J29ATKM3YIB/ESC+logo-white.png?content-type=image%2Fpng" style="background-color: gray; padding: 5px;"></div>
+                            <div class="col-lg-8">
+                                <h3>Committee Member of Engineering Student Council</h3>
+                                <div class="row">
+                                    <div class="col-lg-5 exp-mid-col">
+                                        <p>Aug 2018 - May 2019<br><a href="https://www.uvaesc.org/">Website</a></p>
+                                        <p><span>Tags:&nbsp;</span><span class="label exp-label-orgs">Organizations</span><span class="label exp-label-leads">Leadership Positions</span></p>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p>Served on Academic and Professional Development committee and helped put on events for other engineers to help relieve academic stress and further each other's studies.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clean-blog-post exp-orgs exp-leads">
+                        <div class="row">
+                            <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/assco.png" width="200px" alt="Association Council" source="https://housing.virginia.edu/RLE"></div>
+                            <div class="col-lg-8">
+                                <h3>Representative for Dorm on Association Council</h3>
+                                <div class="row">
+                                    <div class="col-lg-5 exp-mid-col">
+                                        <p>Aug 2018 - May 2019<br><a href="#"></a></p>
+                                        <p><span>Tags:&nbsp;</span><span class="label exp-label-orgs">Organizations</span><span class="label exp-label-leads">Leadership Positions</span></p>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p>Served on my first year dorm's council to promote and run events for students as part of Housing and Residence Life.<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clean-blog-post exp-jobs exp-cs">
+                        <div class="row">
+                            <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/ct.png" alt="ClearTrail Real Estate"></div>
+                            <div class="col-lg-8">
+                                <h3>Web Developer at ClearTrail Real Estate</h3>
+                                <div class="row">
+                                    <div class="col-lg-5 exp-mid-col">
+                                        <p>Aug 2017 - June 2018<br>Richmond, VA<br></p>
+                                        <p><span>Tags:&nbsp;</span><span class="label exp-label-jobs">Jobs</span><span class="label exp-label-cs">Computer Science</span></p>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p>Designed and developed a website for real estate company using Wordpress.&nbsp; Site included a backend system to allow for updating the current real estate sites and showed over 20 properties.<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clean-blog-post exp-jobs">
+                        <div class="row">
+                            <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/rs.jpg" source="https://upload.wikimedia.org/wikipedia/en/e/e8/Richmond_Strikers_logo.jpg" alt="Richmond Strikers" style="padding-top: 20px; padding-bottom: 20px;"></div>
+                            <div class="col-lg-8">
+                                <h3>Field Employee at Richmond Strikers</h3>
+                                <div class="row">
+                                    <div class="col-lg-5 exp-mid-col">
+                                        <p>Sept 2014 - June 2018<br>Richmond, VA<br><a href="https://www.richmondstrikers.com/landing/index">Website</a></p>
+                                        <p><span>Tags:&nbsp;</span><span class="label exp-label-jobs">Jobs</span></p>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p>Worked at tournaments refilling Gatorade coolers and handing out samples to players, coaches, and parents.&nbsp; Helped with event setup and cleanup.<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clean-blog-post exp-orgs exp-leads exp-cs exp-ne">
+                        <div class="row">
+                            <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/cit.png" alt="Center for Information Technology" source="https://teachers.henrico.k12.va.us/deeprun/cit/media/c5.png"></div>
+                            <div class="col-lg-8">
+                                <h3>President of the Center for Information Technology (CIT) Council</h3>
+                                <div class="row">
+                                    <div class="col-lg-5 exp-mid-col">
+                                        <p>June 2017 - June 2018<br>Deep Run High School<br></p>
+                                        <p><span>Tags:&nbsp;</span><span class="label exp-label-orgs">Organizations</span><span class="label exp-label-leads">Leadership Positions</span><span class="label exp-label-cs">Computer Science</span><span class="label exp-label-ne">Network Engineering</span></p>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p>Ran, organized, and planned events.&nbsp; Was involved in major decisions about the runnings and future operations of the CIT.&nbsp; Also participated on the CIT Advisory Council and helped plan and write curriculum for future courses.<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clean-blog-post exp-vols exp-me exp-cs">
+                        <div class="row">
+                            <div class="col-lg-4 text-center"><img class="rounded img-fluid exp-img" src="assets/img/experience/stc.jpg" alt="St. Catherine's School"></div>
+                            <div class="col-lg-8">
+                                <h3>LEGO Robotics Mentor at St. Catherine's School</h3>
+                                <div class="row">
+                                    <div class="col-lg-5 exp-mid-col">
+                                        <p>Aug 2016 - Dec 2017<br>Richmond, VA<br><a href="https://www.st.catherines.org/">Website</a></p>
+                                        <p><span>Tags:&nbsp;</span><span class="label exp-label-vols">Volunteering</span><span class="label exp-label-me">Mechanical Engineering</span><span class="label exp-label-cs">Computer Science</span></p>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p>Helped mentor middle and elementary school students to prepare for the FIRST LEGO League competition.&nbsp;Taught robot design, programming using LEGO EV3 software, and strategy for completing tasks with the robot.&nbsp;Also assisted with project research and helped students come up with creative solutions to real world problems.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            </div>
             </div>
         </section>
     </main>
@@ -351,8 +350,10 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="assets/js/smoothproducts.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/filter.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>
